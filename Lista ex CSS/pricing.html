@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Preço</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style type="text/css">
+    section.pricing {
+        background: #9CECFB;
+        
+        background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+       
+        background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+       
+    }
+
+    .pricing .card {
+        border: none;
+        border-radius: 1rem;
+        transition: all 0.2s;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .pricing hr {
+        margin: 1.5rem 0;
+    }
+
+    .pricing .card-title {
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+    }
+
+    .pricing .card-price {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .pricing .card-price .period {
+        font-size: 0.8rem;
+    }
+
+    .pricing ul li {
+        margin-bottom: 1rem;
+    }
+
+    .pricing .text-muted {
+        opacity: 0.7;
+    }
+
+    .pricing .btn {
+        font-size: 80%;
+        border-radius: 5rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+        padding: 1rem;
+        opacity: 0.7;
+        transition: all 0.2s;
+    }
+
+ 
+    @media (min-width: 992px) {
+        .pricing .card:hover {
+            margin-top: -.25rem;
+            margin-bottom: .25rem;
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+        }
+        .pricing .card:hover .btn {
+            opacity: 1;
+        }
+    }
+</style>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Exercício</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+               <li><a href="contato.html">Contato</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="pricing.html">Princing</a></li>
+                <li><a href="weather.html">Weather</a></li>
+                <li><a href="tabela.html">Grid</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ex 5
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="lay1.html">Page 1-1</a></li>
+                        <li><a href="lay2.html">Page 1-2</a></li>
+                        <li><a href="lay3.html">Page 1-3</a></li>
+                        <li><a href="lay4.html">Page 1-4</a></li>
+                    </ul>
+                </li>
+                <li><a href="cores.html">Cores</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Pesquisar</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="singup.html"><span class="glyphicon glyphicon-user"></span>Cadastre-se</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Logar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="pricing py-5">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-4">
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">Gratis</h5>
+                            <h6 class="card-price text-center">$0<span class="period">/mês</span></h6>
+                            <hr>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Usuário Unico</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB de Armazenamento</li>
+                                
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary text-uppercase">Adquirir</a>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="col-lg-4">
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">Intermediário</h5>
+                            <h6 class="card-price text-center">$9<span class="period">/mês</span></h6>
+                            <hr>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Usuários</strong></li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB de Armazenamento</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Projetos Abertos</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Projetos Fechados</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Suporte Direto</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
+                                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Feedback Mensal</li>
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary text-uppercase">Adquirir</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">Profissional</h5>
+                            <h6 class="card-price text-center">$49<span class="period">/mês</span></h6>
+                            <hr>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Usuários Ilimitados</strong></li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB de Armazenamento</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Sem Limite de Projetos</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Projetos Abertos</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Projetos Fechados</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free
+                                    Subdomains</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Feedback Mensal</li>
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary text-uppercase">Adquirir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

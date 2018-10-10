@@ -1,0 +1,28 @@
+header{
+	height: 160px;
+	width: 1200px;
+	padding: 10px;
+	background-color: gray;
+	float: right;
+}
+
+aside{
+	width: 650px;
+	height: 780px;
+	padding: 10px;
+	background-color: red;
+	float: left;
+}
+
+footer{
+	background-color: yellow;
+	clear: both;
+}
+
+main{
+   width: 1200px;
+   height: 620px;
+   padding: 10px;
+   background-color: gray;
+   float: right;
+   }

@@ -1,0 +1,31 @@
+	*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	border: 
+}
+
+header{
+	height: 256px;
+	padding: 64px;
+	background-color: gray;
+}
+
+aside{
+	width: 256px;
+	padding: 16px;
+	background-color: yellow;
+	float: left;
+}
+
+main{
+   width: 1480px;
+   padding: 48px;
+   background-color: gray;
+
+}
+
+main,aside {
+	height: 560px;
+
